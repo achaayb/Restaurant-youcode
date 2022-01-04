@@ -92,4 +92,7 @@ a {
     .hero {
         display : none;
     }
+    nav a {
+        display: none;
+    }
 }

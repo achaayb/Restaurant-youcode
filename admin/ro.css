@@ -1,0 +1,112 @@
+:root {
+	--borderRadius: 5px;
+	--main: #af9fa5
+}
+
+.ro-btn {
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	outline: none;
+	border-radius: var(--borderRadius);
+	border: 2px solid var(--hoverStateBG);
+	background-color: var(--normalStateBG);
+	color: var(--textColor);
+	transition: background-color 200ms ease;
+	font-weight: 600;
+	width: 100%;
+    box-sizing: border-box;
+	margin : 2px;
+}
+
+.ro-btn.primary {
+	--normalStateBG: #FFB740;
+	--hoverStateBG: #bd8c17;
+	--textColor: #000000;
+}
+
+
+.ro-btn:hover {
+	background-color: var(--hoverStateBG)
+}
+
+.ro-input {
+	width:100%;
+	--bgColor: #f8f8f8;
+	--borderColor:  #FFB740;
+	padding: 0.42rem 0.7rem;
+	border: none;
+	outline: none;
+	background-color: var(--bgColor);
+	border: 2px solid var(--borderColor);
+	border-radius: var(--borderRadius);
+	font-size: 1rem;
+	font-weight: 400;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+.ro-input-valid {
+	width:100%;
+	--bgColor: #f8f8f8;
+	--borderColor:  #5fbc57;
+	padding: 0.42rem 0.7rem;
+	border: none;
+	outline: none;
+	background-color: var(--bgColor);
+	border: 2px solid var(--borderColor);
+	border-radius: var(--borderRadius);
+	font-size: 1rem;
+	font-weight: 400;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+.ro-input-invalid {
+	width:100%;
+	--bgColor: #f8f8f8;
+	--borderColor:  #ff0000;
+	padding: 0.42rem 0.7rem;
+	border: none;
+	outline: none;
+	background-color: var(--bgColor);
+	border: 2px solid var(--borderColor);
+	border-radius: var(--borderRadius);
+	font-size: 1rem;
+	font-weight: 400;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+.ro-input:focus {
+	box-shadow: 0px 0px 3px var(--borderColor) !important;
+}
+
+.ro-table {
+	--topBG: #F8F8F8;
+	--evenLineBG: #fff;
+	border-collapse: collapse;
+	border-radius: var(--borderRadius);
+	overflow: hidden
+}
+
+.ro-table tr {
+	text-align: center;
+	font-weight: 600
+}
+
+.ro-table tr th {
+	background-color: var(--main);
+	color: var(--topBG)
+}
+
+.ro-table tr th,
+.ro-table tr td {
+	padding: 0.35rem 1rem
+}
+
+.ro-table tr:nth-child(even) {
+	background-color: var(--evenBG)
+}

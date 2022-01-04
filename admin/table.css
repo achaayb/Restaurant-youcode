@@ -8,8 +8,14 @@ table {
     width: 100%;
     table-layout: fixed;
     border-radius: 10px;
+    font-family: 'Metrophobic', sans-serif;
   }
   
+  table:not(:first-child){
+    margin-top: 2vh;
+  }
+
+
   table caption {
     font-size: 1.5em;
     margin: .5em 0 .75em;
@@ -31,6 +37,8 @@ table {
     font-size: .85em;
     letter-spacing: .1em;
     text-transform: uppercase;
+    background-color: black;
+    color: white;
   }
   
   @media screen and (max-width: 900px) {

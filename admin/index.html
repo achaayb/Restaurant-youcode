@@ -29,84 +29,114 @@
 
     <main>
 
-        <table>
-            <caption>Accounts administration</caption>
-            <thead>
-              <tr>
-                <th scope="col">Full name</th>
-                <th scope="col">Login</th>
-                <th scope="col">Email</th>
-                <th scope="col">Type</th>
-                <th scope="col">Action</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td data-label="Full name"><input type="text" class="ro-input"></td>
-                <td data-label="Login"><input type="text" class="ro-input"></td>
-                <td data-label="Email"><input type="email" class="ro-input"></td>
-                <td data-label="Type">
-                    <select  class="ro-input select">
-                        <option value="" disabled selected hidden>Type</option>
-                        <option value="0"> Admin </option>
-                        <option value="m"> Chef </option>
-                        <option value="f"> Client </option>
-                      </select> 
-                </td>
-                <td data-label="Action"><button class="ro-btn primary"><ion-icon name="person-add"></ion-icon></button></td>
-              </tr>
-              <tr>
-                <td  data-label="Full name">Ali chaayb</td>
-                <td data-label="Login">achaayb</td>
-                <td data-label="Email">achaaybdev@gmail.com</td>
-                <td data-label="Type">Client</td>
-                <td data-label="Action">
-                    <button class="ro-btn primary" style="width: 45%;"><ion-icon name="close"></ion-icon></button>
-                    <button class="ro-btn primary" style="width: 45%;"><ion-icon name="pencil"></ion-icon></button>
-                </td>
-              </tr>
-              <tr>
-                <td  data-label="Full name">abderrazak mars</td>
-                <td data-label="Login">mars</td>
-                <td data-label="Email">mars@gmail.com</td>
-                <td data-label="Type">Chef</td>
-                <td data-label="Action">
-                    <button class="ro-btn primary" style="width: 45%;"><ion-icon name="close"></ion-icon></button>
-                    <button class="ro-btn primary" style="width: 45%;"><ion-icon name="pencil"></ion-icon></button>
-                </td>
-              </tr>
-              <tr>
-                <td  data-label="Full name">adam bakkar</td>
-                <td data-label="Login">abakkar</td>
-                <td data-label="Email">abakkar2005@gmail.com</td>
-                <td data-label="Type">Admin</td>
-                <td data-label="Action">
-                    <button class="ro-btn primary" style="width: 45%;"><ion-icon name="close"></ion-icon></button>
-                    <button class="ro-btn primary" style="width: 45%;"><ion-icon name="pencil"></ion-icon></button>
-                </td>
-              </tr>
-              <tr>
-                <td  data-label="Full name">Nouhaila</td>
-                <td data-label="Login">nounou123</td>
-                <td data-label="Email">ouioui33@hotmail.fr</td>
-                <td data-label="Type">Client</td>
-                <td data-label="Action">
-                    <button class="ro-btn primary" style="width: 45%;"><ion-icon name="close"></ion-icon></button>
-                    <button class="ro-btn primary" style="width: 45%;"><ion-icon name="pencil"></ion-icon></button>
-                </td>
-              </tr>
-              <tr>
-                <td  data-label="Full name">Soumia</td>
-                <td data-label="Login">SoumiaSoumia</td>
-                <td data-label="Email">Soumia@gmail.com</td>
-                <td data-label="Type">Client</td>
-                <td data-label="Action">
-                    <button class="ro-btn primary" style="width: 45%;"><ion-icon name="close"></ion-icon></button>
-                    <button class="ro-btn primary" style="width: 45%;"><ion-icon name="pencil"></ion-icon></button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+      <table>
+        <caption>Administration</caption>
+        <thead>
+          <tr>
+            <th scope="col">Full name</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Full name">
+                <select  class="ro-input select">
+                    <option value="" disabled selected hidden>Full name</option>
+                    <option value="0"> Ali chaayb </option>
+                    <option value="m"> Abderrazak mars </option>
+                    <option value="f"> Adam bakkar </option>
+                    <option value="f"> Nouhaila </option>
+                    <option value="f"> Soumia </option>
+                  </select> 
+            </td>
+            <td data-label="Action"><button class="ro-btn primary"><ion-icon name="search"></ion-icon></ion-icon></button></td>
+          </tr>
+        </tbody>
+      </table>
+
+
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Full name</th>
+            <th scope="col">Login</th>
+            <th scope="col">Email</th>
+            <th scope="col">Type</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Full name"><input type="text" class="ro-input"></td>
+            <td data-label="Login"><input type="text" class="ro-input"></td>
+            <td data-label="Email"><input type="email" class="ro-input"></td>
+            <td data-label="Type">
+                <select  class="ro-input select">
+                    <option value="" disabled selected hidden>Type</option>
+                    <option value="0"> Admin </option>
+                    <option value="m"> Chef </option>
+                    <option value="f"> Client </option>
+                  </select> 
+            </td>
+            <td data-label="Action"><button class="ro-btn primary"><ion-icon name="person-add"></ion-icon></button></td>
+          </tr>
+          <tr>
+            <td  data-label="Full name">Ali chaayb</td>
+            <td data-label="Login">achaayb</td>
+            <td data-label="Email">achaaybdev@gmail.com</td>
+            <td data-label="Type">Client</td>
+            <td data-label="Action">
+                <button class="ro-btn primary" style="width: 20%;"><ion-icon name="close"></ion-icon></button>
+                <button class="ro-btn primary" style="width: 20%;"><ion-icon name="pencil"></ion-icon></button>
+                <button class="ro-btn primary" style="width: 20%;"><ion-icon name="flash-off"></ion-icon></ion-icon></button>
+            </td>
+          </tr>
+          <tr>
+            <td  data-label="Full name">Abderrazak mars</td>
+            <td data-label="Login">mars</td>
+            <td data-label="Email">mars@gmail.com</td>
+            <td data-label="Type">Chef</td>
+            <td data-label="Action">
+                <button class="ro-btn primary" style="width: 20%;"><ion-icon name="close"></ion-icon></button>
+                <button class="ro-btn primary" style="width: 20%;"><ion-icon name="pencil"></ion-icon></button>
+            </td>
+          </tr>
+          <tr>
+            <td  data-label="Full name">Adam bakkar</td>
+            <td data-label="Login">abakkar</td>
+            <td data-label="Email">abakkar2005@gmail.com</td>
+            <td data-label="Type">Admin</td>
+            <td data-label="Action">
+                <button class="ro-btn primary" style="width: 20%;"><ion-icon name="close"></ion-icon></button>
+                <button class="ro-btn primary" style="width: 20%;"><ion-icon name="pencil"></ion-icon></button>
+            </td>
+          </tr>
+          <tr>
+            <td  data-label="Full name">Nouhaila</td>
+            <td data-label="Login">nounou123</td>
+            <td data-label="Email">ouioui33@hotmail.fr</td>
+            <td data-label="Type">Client</td>
+            <td data-label="Action">
+              <button class="ro-btn primary" style="width: 20%;"><ion-icon name="close"></ion-icon></button>
+              <button class="ro-btn primary" style="width: 20%;"><ion-icon name="pencil"></ion-icon></button>
+              <button class="ro-btn primary" style="width: 20%;"><ion-icon name="flash-off"></ion-icon></ion-icon></button>
+          </td>
+          </tr>
+          <tr>
+            <td  data-label="Full name">Soumia</td>
+            <td data-label="Login">SoumiaSoumia</td>
+            <td data-label="Email">Soumia@gmail.com</td>
+            <td data-label="Type">Client</td>
+            <td data-label="Action">
+              <button class="ro-btn primary" style="width: 20%;"><ion-icon name="close"></ion-icon></button>
+              <button class="ro-btn primary" style="width: 20%;"><ion-icon name="pencil"></ion-icon></button>
+              <button class="ro-btn primary" style="width: 20%;"><ion-icon name="flash"></ion-icon></ion-icon></button>
+          </td>
+          </tr>
+        </tbody>
+      </table>
+
+
           <div class="page-btn">
             <a href="#" class="current">1</a>
             <a href="#">2</a>

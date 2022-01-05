@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espace client</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+
+    <nav>
+        <img src="logo.png" alt="logo">
+        <a href="#login">
+            <div class="btn">
+              <ion-icon name="log-out"></ion-icon>
+                <span>Logout</span>
+            </div>
+        </a>
+    </nav>
+
+    <main>
+
+        <table>
+            <caption>Calendrier</caption>
+            <thead>
+              <tr>
+                <th scope="col">Lundi</th>
+                <th scope="col">Mardi</th>
+                <th scope="col">Mercredi</th>
+                <th scope="col">Jeudi</th>
+                <th scope="col">Vendredi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Lundi">
+                    <b>Tajin beldi</b>
+                </td>
+                <td data-label="Mardi">
+                    <b>Tanjia </b>
+                </td>
+                <td data-label="Mercredi">
+                    <b>Rfissa</b>
+                </td>
+                <td data-label="Jeudi">
+                    <b>Pastilla</b>
+                </td>
+                <td data-label="Vendredi">
+                    <b>Couscous</b>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Lundi">
+                    <b>Seffa</b>
+                </td>
+                <td data-label="Mardi">
+                    <b>Harira</b>
+                </td>
+                <td data-label="Mercredi">
+                    <b>Hargma</b>
+                </td>
+                <td data-label="Jeudi">
+                    <b>Mrouzia</b>
+                </td>
+                <td data-label="Vendredi">
+                    <b>Mechoui</b>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+    </main>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

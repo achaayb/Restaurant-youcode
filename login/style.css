@@ -51,31 +51,32 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3vh;
-    width : 100%;
+    width : 90%;
     height : 50px;
     border-radius: 10px;
 }
 
 
 .login .login-container .lgn {
+    margin-top: 2vh;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
+    display: flex;
 }
 
 .login .login-container .lgn .ico {
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;
     align-items: center;
     width: 50px;
     background-color: orange;
-    position: absolute;
-    left : 0px;
-    top : 1px;
-    height : 95%;
+    height : 50px;
     border-radius: 10px;
+}
+
+input:focus {
+    outline: none;
 }
 
 .login a {
@@ -91,6 +92,7 @@ body {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2vh;
     
 }
 

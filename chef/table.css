@@ -11,10 +11,6 @@ table {
     font-family: 'Metrophobic', sans-serif;
   }
 
-  table tbody tr td:hover {
-    background-color: rgb(255, 166, 0);
-  }
-
   table img {
     width: 100%;
   }

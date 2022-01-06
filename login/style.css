@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
 
+body {
+    min-width: 450px;
+}
+
 .hero {
     display: flex;
     justify-content: space-around;

@@ -3,3 +3,7 @@ main {
     padding-right: 10%;
     margin-top: 4vh;
 }
+
+body {
+    min-width: 450px;
+}

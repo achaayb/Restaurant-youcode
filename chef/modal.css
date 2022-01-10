@@ -1,0 +1,28 @@
+.show {
+    display: none;
+}
+
+#modal {
+    position: absolute;
+    width: 100%;
+    min-width: 450px;
+    height: 200vh;
+    background-color: rgba(255, 170, 34, 0.356);
+    top: 0px;
+}
+
+#modal .modal_content {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
+    border-radius: 5px;
+}
+
+#close {
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+}

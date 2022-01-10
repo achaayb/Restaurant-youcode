@@ -1,0 +1,72 @@
+.orangecontainer{
+    
+    margin-top: 150px;
+    background-color:orange ;
+    padding:100px;
+    display: flex;
+    height: 10px;
+    justify-content: space-around;
+    font-family: 'Metrophobic', sans-serif;
+}
+
+.orangecontainer img{
+    width: 100%;
+    
+}
+#clt{
+    
+    width: 150px;
+    margin-top: -200px;
+    
+   
+}
+#food{
+    width: 150px;
+    margin-top: -200px;
+
+}
+#chef{
+    width: 150px;
+    margin-top: -200px;
+   
+}
+#clt strong{
+    display: inline-block;
+    color: seashell;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size:50px;
+    
+    
+}
+    
+
+
+#food strong{
+    display: inline-block;
+    color: seashell;
+    margin-left:40px ;
+    margin-top: 40px;
+    font-size:50px;
+    
+}
+
+#chef strong{
+    display: inline-block;
+    color: seashell;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size:50px;
+   
+    
+    
+}
+
+
+@media screen and (max-width:900px){
+
+.orangecontainer{
+    display: none;
+}
+
+}

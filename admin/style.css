@@ -1,0 +1,11 @@
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 4vh;
+}
+
+body {
+    height : 100vh;
+    overflow-x: hidden;
+    min-width: 450px;
+}

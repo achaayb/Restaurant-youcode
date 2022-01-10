@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+nav {
+    height : 8vh;
+    background-color: black;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav img {
+    height : 50%;
+}
+
+nav .btn {
+    color: black;
+    display: flex;
+    background-color: orange;
+    align-items: center;
+    height : 50%;
+    width : 100px;
+    font-size: 25px;
+    font-family: 'Metrophobic', sans-serif;
+    border-radius: 3px;
+    padding : 3px;
+}

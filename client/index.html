@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espace client</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="ro.css">
+</head>
+<body>
+
+    <nav>
+        <img src="logo.png" alt="logo">
+        <a href="#login">
+            <div class="btn">
+              <ion-icon name="log-out"></ion-icon>
+                <span>Logout</span>
+            </div>
+        </a>
+    </nav>
+
+    <main>
+
+        <table>
+            <caption>Calendrier</caption>
+            <thead>
+              <tr>
+                <th scope="col">Lundi</th>
+                <th scope="col">Mardi</th>
+                <th scope="col">Mercredi</th>
+                <th scope="col">Jeudi</th>
+                <th scope="col">Vendredi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Lundi" onclick="change('tajin.png');">
+                    <b>Tajin beldi</b>
+                </td>
+                <td data-label="Mardi" onclick="change('tanjia.png');">
+                    <b>Tanjia </b>
+                </td>
+                <td data-label="Mercredi" onclick="change('rfissa.png');">
+                    <b>Rfissa</b>
+                </td>
+                <td data-label="Jeudi" onclick="change('pastilla.png');">
+                    <b>Pastilla</b>
+                </td>
+                <td data-label="Vendredi" onclick="change('couscous.png');">
+                    <b>Couscous</b>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Lundi" onclick="change('seffa.png');">
+                    <b>Seffa</b>
+                </td>
+                <td data-label="Mardi" onclick="change('harira.png');">
+                    <b>Harira</b>
+                </td>
+                <td data-label="Mercredi" onclick="change('hargma.png');">
+                    <b>Hargma</b>
+                </td>
+                <td data-label="Jeudi" onclick="change('mrouzia.png');">
+                    <b>Mrouzia</b>
+                </td>
+                <td data-label="Vendredi" onclick="change('mechoui.png');">
+                    <b>Mechoui</b>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+              <div class="plat">
+                  <img id="showcase" src="img/null.png" alt="">
+                  <div class="btns" id="foo">
+                    <button class="ro-btn primary" onclick='document.getElementById("bar").style.display = "flex";' >Confirm</button>
+                    <button class="ro-btn primary" ><ion-icon name="thumbs-up"></ion-icon></button>
+                    <button class="ro-btn primary" ><ion-icon name="thumbs-down"></ion-icon></button>
+                  </div>
+                  <div class="welcome" id="welcome">
+                    <h2>Please pick your lunch from the menu above</h2>
+                  </div>
+              </div>
+    
+              <div class="plat" id="bar" style="display: none;">
+                  <input type="text" class="ro-input">
+                  <button class="ro-btn primary" ><ion-icon name="chatbox"></ion-icon></button>
+              </div>
+
+    </main>
+    
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
